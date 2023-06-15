@@ -28,7 +28,7 @@ vector<vector<long long int>> printPascal(int n)
          
        }
      }
-     cout<<endl;
+    //  cout<<endl;
      pascal2.push_back(temp);
    }
    return pascal2;
