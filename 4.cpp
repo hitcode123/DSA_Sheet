@@ -1,5 +1,6 @@
 #include <bits/stdc++.h> 
 using namespace std;
+//  sort 0s 1s and 2s dutch flag question
 void swap(int i,int j,int * arr)
 {
    int temp=arr[i];
