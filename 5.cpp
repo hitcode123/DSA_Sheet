@@ -1,5 +1,6 @@
 #include <bits/stdc++.h> 
 using namespace std;
+// Buy and sell profit by simple tecnique to track profit
 int maximumProfit(vector<int> &prices){
     int n=prices.size();
     int maxi=INT_MIN;
@@ -9,7 +10,7 @@ int maximumProfit(vector<int> &prices){
        maxi=max(prices[i+1],maxi);
        if(maxi-prices[i]<0)
        {
-           continue;
+            continue;
        }
        else
        {
