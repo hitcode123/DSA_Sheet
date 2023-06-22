@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+// #include<iostream>
+// #include<vector>
 using namespace std;
 
 /*
@@ -74,7 +76,7 @@ void rotateMatrixHelper(vector<vector<int>> &mat, int rowStart, int colStart, in
 
 }
 
-void rotateMatrix(vector<vector<int>> &mat, int n, int m)
+int main()
 {
     // Recursive function to rotate the matrix
 
@@ -96,13 +98,14 @@ void rotateMatrix(vector<vector<int>> &mat, int n, int m)
                 res[i][j]=temp;
             }
         }
-        rotateMatrix(res,m,n);
+        rotateMatrixHelper(res,0,0,m,n);
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
             {
-                cout<<res[i][j]<<endl;
+                cout<<res[i][j]<<" ";
             }
+        cout<<endl;
         }
     }
 }
