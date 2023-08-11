@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-bool cal_248(int number)
+bool cal_248(long long number)
 {
     int count_2=0;
     int count_4=0;
@@ -33,14 +33,14 @@ bool cal_248(int number)
 int main()
 {
 
-    int upper_range;
+    long long upper_range;
     cin>>upper_range;
-     int count=0;
+    long long count=0;
     for(int i=248;i<=upper_range;i++)
     {
         if(cal_248(i)==true)
         {
-            count++;
+            count=(count%1000000007+1)%1000000007;
         }
 
     }
