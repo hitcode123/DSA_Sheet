@@ -1,6 +1,5 @@
-
-        }
-    }
-    cout<<smo<<" "<<sme<<endl;
-    return 0;
-}
+ while(count_h);
+     {
+        hp.push_back('-');
+        count_h--;
+     }

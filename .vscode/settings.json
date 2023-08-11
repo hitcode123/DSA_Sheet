@@ -61,7 +61,8 @@
     "shared_mutex": "cpp",
     "sstream": "cpp",
     "tuple": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iostream": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
