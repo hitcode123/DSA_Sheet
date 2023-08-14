@@ -36,7 +36,7 @@ int main()
     long long upper_range;
     cin>>upper_range;
     long long count=0;
-    for(int i=248;i<=upper_range;i++)
+    for(long long i=1e7;i<=1e8;i++)
     {
         if(cal_248(i)==true)
         {

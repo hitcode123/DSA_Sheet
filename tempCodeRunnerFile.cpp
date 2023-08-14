@@ -1,5 +1,4 @@
- while(count_h);
-     {
-        hp.push_back('-');
-        count_h--;
-     }
+if(index>=sizeof(city)/sizeof(int))
+    {
+        return INT_MAX;
+    }

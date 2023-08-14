@@ -1,3 +1,5 @@
+// another way to find gcd... using while loop
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()

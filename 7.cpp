@@ -11,7 +11,7 @@ vector<vector<int>> mergeIntervals(vector<vector<int>> &intervals)
     deque<pair<int,int>> dq;
     for(int i=0;i<intervals.size();i++)
     {
-        dq.push_back({intervals[0],intervals[1]});
+      // ({intervals[0],intervals[1]});
     }
     return {{1}};
 }

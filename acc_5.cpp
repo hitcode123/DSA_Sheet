@@ -10,13 +10,10 @@ int main(){
     int temp=n;
     while(num>temp)
     {
-                
-            //   cout<<temp<<endl;
               temp=temp*n;
     }
-// cout<<temp<<endl;
+
     temp=temp/n;
-    // cout<<temp<<endl;
 
     vector<char> res;
     
